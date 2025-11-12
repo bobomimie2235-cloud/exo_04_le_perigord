@@ -1,0 +1,123 @@
+/* périgord noir - Site html et css - Version JB */
+
+*{
+    padding: 0;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {background-color: #fce6d8;}
+
+header {background-color: #F55B33;
+}
+a {
+    background-color: antiquewhite;
+    padding: 5px;
+    line-height: 3em;
+    text-decoration: none;
+    color: #08a2e9;
+}
+a:hover {
+    color: lightsalmon;
+    font-size: 15px;
+    background-color: #fdfdfd;
+}
+nav {
+    margin: 20px;
+    align-self: center;
+    display: inline-block;
+}
+h1 {
+    margin: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2 {
+    background-color: #e9d208;
+    margin: 10px 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p {
+    display: inline-block;
+    width: 40%;
+    padding: 10px;
+    text-align: center;
+    background-color: #eba549;
+    border: 2px solid #53311c;
+    margin: 20px 30%;
+
+}
+
+mark {
+    padding: 2px;
+    color: aliceblue;
+    background-color: #F7150F;
+line-height: 3em;}
+
+hr {
+
+    color: #53311c;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.youtube {
+    margin: 20px 0px;
+    text-align: center;
+}
+
+table {
+    background: #e4ea93;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border: 3px solid black;
+    margin: 0 auto 20px;
+    
+}
+th,td {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 20px;
+    text-align: center;
+}
+
+form {
+    margin: 20px 35%;
+    background: #e8ad1a;
+    padding: 10px;
+    width: 25%;
+}
+.element_menu li {
+    align-items: center;
+}
+li {
+    margin: 20px;
+}
+
+.card{
+    border: 2px red;
+    background-color: rgb(221, 148, 39);
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+span {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    margin: 5px 0px 0px 0px;
+    background-color: #F55B33;
+    border: 2px solid #53311c;
+}
+
+
+
+/* Couleur de Site */
+/* p {
+    color: #F55B33;
+color: #F59E33;
+color: #F57D33;
+color: #F7150F;
+color: #F9AC05;
+color: #f5cdb5;} */
