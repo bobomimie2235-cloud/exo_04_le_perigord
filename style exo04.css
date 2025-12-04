@@ -47,6 +47,16 @@ p {
 
 }
 
+h5 {
+    font-family: "poppins";
+    text-transform: uppercase;
+}
+
+h6 {
+    font-family: "Stack Sans Notch";
+    text-transform: uppercase;
+}
+
 mark {
     padding: 2px;
     color: aliceblue;
